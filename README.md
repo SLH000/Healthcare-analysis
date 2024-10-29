@@ -22,3 +22,29 @@ This project is a comprehensive health data dashboard built using Streamlit and 
    ```bash
    git clone https://github.com/yourusername/health-data-dashboard.git
    cd health-data-dashboard
+Data Description
+
+### The dataset used in this project includes the following columns:
+
+Name: Name of the patient.
+Date of Admission: Date the patient was admitted.
+Gender: Gender of the patient.
+Age: Age of the patient.
+Medical Condition: The medical condition diagnosed.
+Admission Type: Type of admission (e.g., emergency, elective).
+Billing Amount: Total billing amount for the patient.
+Hospital: The hospital where the patient was treated.
+Insurance Provider: The insurance provider for the patient.
+
+## Statistical Analysis
+
+Chi-Square Test: Analyzed the relationship between Gender and Admission Type.
+ANOVA: Assessed differences in billing amounts across different hospitals.
+Kruskal-Wallis H Test: Evaluated age distributions among various medical conditions when normality assumptions were violated.
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+Thanks to the contributors and resources available for Streamlit, Plotly, and other libraries used in this project.
