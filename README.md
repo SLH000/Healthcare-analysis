@@ -1,24 +1,24 @@
-# Healthcare-analysis - Dashboard
+# Health Data Dashboard + Statistical Analysis
 
 ## Overview
-
-The **Healthcare Data Dashboard** is a Streamlit application designed to visualize healthcare data using interactive charts and metrics. The dashboard provides insights into various aspects of patient data, including demographics, billing amounts, and medical conditions.
+This project is a comprehensive health data dashboard built using Streamlit and Plotly. It allows users to visualize various healthcare metrics, including patient demographics, billing amounts, and medical conditions. The dashboard also includes statistical analysis to identify significant relationships between different variables in the dataset.
 
 ## Features
-
-- **Interactive Year Selection**: Users can filter the data by selecting a specific year or view all available data.
-- **Key Metrics**: Displays total patients, billing amounts, hospitals, doctors, and insurance providers.
-- **Visualizations**:
-  - Patient distribution by gender (Pie Chart)
-  - Total patients by age group (Bar Chart)
-  - Total billing amount by year (Line Chart)
-  - Total patients by medical condition (Bar Chart)
-  - Total patients by admission type (Bar Chart)
-  - Total billing amount by insurance provider (Donut Chart)
+- **Dynamic Data Visualization**: Interactive charts and graphs to explore patient data by year, gender, age group, medical condition, and more.
+- **Statistical Analysis**: Includes chi-square tests, ANOVA, and Kruskal-Wallis tests to assess relationships and differences in the dataset.
+- **User-Friendly Interface**: Easy-to-navigate dashboard layout for improved user experience.
 
 ## Technologies Used
+- [Python](https://www.python.org/)
+- [Streamlit](https://streamlit.io/)
+- [Plotly](https://plotly.com/python/)
+- [Pandas](https://pandas.pydata.org/)
+- [Scipy](https://www.scipy.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [Seaborn](https://seaborn.pydata.org/)
 
-- **Python**: The primary programming language for data manipulation and visualization.
-- **Streamlit**: A framework for building interactive web applications.
-- **Plotly Express**: A library for creating interactive visualizations.
-- **Pandas**: A data manipulation library used for data analysis and processing.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/health-data-dashboard.git
+   cd health-data-dashboard
