@@ -41,9 +41,6 @@ Insurance Provider: The insurance provider for the patient.
 Chi-Square Test: Analyzed the relationship between Gender and Admission Type.
 ANOVA: Assessed differences in billing amounts across different hospitals.
 Kruskal-Wallis H Test: Evaluated age distributions among various medical conditions when normality assumptions were violated.
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
